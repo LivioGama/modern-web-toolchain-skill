@@ -1,0 +1,41 @@
+{
+  "version": 2,
+  "task_id": "task-614b31fc5c8ed7de149450f1",
+  "provider": "devin",
+  "session_id": "chisel-tuck",
+  "attempt_id": "211fc524-fc64-4778-b4d1-5af9a4956c00",
+  "revision": 4,
+  "phase": "contracted",
+  "created_ms": 1792263039144,
+  "updated_ms": 1792263039172,
+  "contract": {
+    "version": 1,
+    "objective": "Complete the current coding task; map its acceptance criteria before verification",
+    "checks": [],
+    "criteria": [
+      {
+        "id": "task-acceptance",
+        "description": "Complete the current coding task; map its acceptance criteria before verification",
+        "checks": []
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "conservative_checks": [],
+    "require_preparation": true,
+    "require_review": true,
+    "toolchain": {}
+  },
+  "source": null,
+  "observations": [],
+  "receipts": [],
+  "review": null,
+  "claims": [],
+  "budget": {
+    "continuations": 0,
+    "same_state_repeats": 0,
+    "last_state": null
+  },
+  "running": null,
+  "legacy_status": null
+}
