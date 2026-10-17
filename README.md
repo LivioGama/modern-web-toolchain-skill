@@ -1,6 +1,6 @@
 <div align="center">
 
-# ⚡ swift-toolchain
+# ⚡ modern-web-toolchain
 
 **Migrate a JS/TS repo to the fast native toolchain — Bun, TypeScript 7, Vite+ — measured, minimal, no repo-wide reformat.**
 
@@ -39,7 +39,7 @@ On Expo / React Native repos it also evaluates [OneStack](https://onestack.dev/)
 
 **One-click (agent-config deeplink):**
 
-[![Install swift-toolchain skill](https://raw.githubusercontent.com/LivioGama/agent-config/main/assets/install-badge-small.jpg)](agent-config://https://raw.githubusercontent.com/LivioGama/swift-toolchain-skill/main/SKILL.md)
+[![Install modern-web-toolchain skill](https://raw.githubusercontent.com/LivioGama/agent-config/main/assets/install-badge-small.jpg)](agent-config://https://raw.githubusercontent.com/LivioGama/modern-web-toolchain-skill/main/SKILL.md)
 
 *Requires the [agent-config](https://github.com/LivioGama/agent-config) deeplink handler.*
 
@@ -47,18 +47,18 @@ On Expo / React Native repos it also evaluates [OneStack](https://onestack.dev/)
 
 ```bash
 # Claude Code
-git clone https://github.com/LivioGama/swift-toolchain-skill ~/.claude/skills/swift-toolchain
+git clone https://github.com/LivioGama/modern-web-toolchain-skill ~/.claude/skills/modern-web-toolchain
 
 # Codex / Cursor / Gemini / Devin: same shape
-git clone https://github.com/LivioGama/swift-toolchain-skill ~/.codex/skills/swift-toolchain
-git clone https://github.com/LivioGama/swift-toolchain-skill ~/.cursor/skills/swift-toolchain
-git clone https://github.com/LivioGama/swift-toolchain-skill ~/.gemini/skills/swift-toolchain
-git clone https://github.com/LivioGama/swift-toolchain-skill ~/.devin/skills/swift-toolchain
+git clone https://github.com/LivioGama/modern-web-toolchain-skill ~/.codex/skills/modern-web-toolchain
+git clone https://github.com/LivioGama/modern-web-toolchain-skill ~/.cursor/skills/modern-web-toolchain
+git clone https://github.com/LivioGama/modern-web-toolchain-skill ~/.gemini/skills/modern-web-toolchain
+git clone https://github.com/LivioGama/modern-web-toolchain-skill ~/.devin/skills/modern-web-toolchain
 ```
 
 ## Usage
 
-Ask your agent to speed up or modernize the toolchain ("migrate this repo to bun and Vite+", "why is my typecheck slow"), or invoke `/swift-toolchain`.
+Ask your agent to speed up or modernize the toolchain ("migrate this repo to bun and Vite+", "why is my typecheck slow"), or invoke `/modern-web-toolchain`.
 
 The skill inventories the repo first — package manager, TS version, test runner, lint/format setup, spawned binaries, CI steps, workspaces — reports what it found, then migrates and verifies end-to-end locally before CI confirms.
 

@@ -1,9 +1,9 @@
 ---
-name: swift-toolchain
+name: modern-web-toolchain
 description: Assess and migrate a JS/TS repository to the fast native toolchain — Bun (package manager + script runner), TypeScript 7/tsgo (typecheck), Vite+ (vitest-compatible test runner + oxlint + oxfmt) replacing Vite/ESLint/Prettier. Also surfaces OneStack as an optional suggestion when the repo is Expo/React Native. Use when the user asks to speed up installs, typecheck, tests, lint or CI; to modernize the toolchain; or invokes this skill by name.
 ---
 
-# Swift Toolchain Migration
+# Modern Web Toolchain Migration
 
 These are simple, low-cost, low-regression migrations — the hard part is not the tools, it's the rules that keep the formatter from reformatting the whole repo.
 
